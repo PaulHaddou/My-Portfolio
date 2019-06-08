@@ -1,0 +1,234 @@
+.headerContent
+{
+  .topnav
+  {
+      input
+      {
+          + label
+          {
+              position: fixed;
+              top: 40px;
+              right: 40px;
+              height: 20px;
+              width: 15px; 
+              z-index: 5;
+              span
+              {
+                  position: absolute;
+                  width: 100%;
+                  height: 2px;
+                  top: 50%;
+                  margin-top: -1px;
+                  left: 0;
+                  display: block;
+                  background: white;
+                  transition: .5s;
+              }
+              span:first-child 
+              {
+                  top: 4px; 
+              }
+              span:last-child
+              {
+                  top: 16px; 
+              }
+          }
+          + label:hover
+          {
+              cursor: pointer;
+          }
+          ~ .nav
+          {
+              background: black;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100px;
+              z-index: 3;
+              transition: .5s;
+              transition-delay: .5s;
+              overflow: hidden;
+              .ulDiv
+              {
+                  width: 100%;
+                  > ul 
+                  {
+                      text-align: center;
+                      width: 100%;
+                      padding: 0;
+                      display: flex;
+                      align-items: center;
+                      flex-direction: column;
+                      margin: 0;
+      
+                      > li 
+                      {
+                          display: none;
+                          transition: .5s;
+                          transition-delay: 0s;
+                          list-style: none;
+                          width: 100%;
+      
+                          a
+                          {
+                            text-decoration: none;
+                            color: #fff;
+                            font-weight: 700;
+                            font-family: sans-serif;
+                            display: block;
+                            padding-top: 40px;
+                            width: 100%;
+                          }
+                      }
+                      
+                      // >li:hover 
+                      // {
+                      //     > a
+                      //     {
+                      //         -webkit-text-stroke: 0.5px black;
+                      //         color: #fff;
+                      //         transition: 0.7s ease 0s;
+                      //     }
+                      // }
+                  }
+              }
+          }
+          .ulDiv
+          {
+              > ul 
+              {
+                  text-align: center;
+                  width: 100%;
+                  padding: 0;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  margin: 0;
+  
+                  > li 
+                  {
+                      display: none;
+                      transition: .5s;
+                      transition-delay: 0s;
+                      list-style: none;
+                      width: 50%;
+  
+                      a
+                      {
+                          text-decoration: none;
+                          color: white;
+                          font-weight: 700;
+                          font-family: sans-serif;
+                          display: block;
+                          padding: 30px;
+                      }
+                  }
+                  
+                  // >li:hover 
+                  // {
+                  //     > a
+                  //     {
+                  //         -webkit-text-stroke: 0.5px black;
+                  //         color: #fff;
+                  //         transition: 0.7s ease 0s;
+                  //     }
+                  // }
+              }
+          }
+      }
+      input:checked 
+      {
+          + label
+          {
+              span 
+              {
+                  opacity: 0;
+                  top: 50%;
+              }
+              span:last-child
+              {
+                  opacity: 1;
+                  transform: rotate(-405deg);
+              }
+              span:first-child 
+              {
+                  opacity: 1;
+                  transform: rotate(405deg);
+              }
+          }
+          ~ .nav
+          {
+              height: 100%;
+              transition-delay: 0s;
+              display: flex;
+              align-items: center;
+              .ulDiv
+              {
+                  > ul 
+                  {
+                      > li 
+                      {
+                          display: inline;
+                          transition: opacity 4s linear 0s;
+                      }
+                  }
+              }
+          }
+      }
+      input:not(checked)
+      {
+          ~ .nav
+          {
+              .ulDiv
+              {
+                  > ul 
+                  {
+                      > li 
+                      {
+                          display: none;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+
+
+.nav
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    .titleDiv
+    {
+        width: 100%;
+        position: absolute;
+        top: 36px;
+        .title
+        {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            svg
+            {
+              width: 45px;
+              fill: white; 
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .headerContent
+    {
+        display: none;
+        transition: display 0.5 ease; 
+    }
+  }
+/*# sourceMappingURL=sidebar.css.map */
