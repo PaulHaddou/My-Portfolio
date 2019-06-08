@@ -6,7 +6,7 @@ html body {
   margin: 0;
 }
 html body .sidebar {
-  width: 300px;
+  width: 250px;
   height: 100%;
   background-color: black;
   margin: 0;
@@ -19,7 +19,7 @@ html body .sidebar .divLogoSidebar {
   align-items: center;
 }
 html body .sidebar .divLogoSidebar a svg {
-  width: 100px;
+  width: 70px;
   fill: white;
 }
 html body .sidebar .divCategorySidebar {
@@ -42,7 +42,7 @@ html body .sidebar .divCategorySidebar ul li {
 }
 html body .sidebar .divCategorySidebar ul li a {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #BEBEBE34;
   font-weight: 900;
   text-decoration: none;
@@ -53,7 +53,7 @@ html body .sidebar .divCategorySidebar ul li a:hover {
 }
 html body .sidebar .divCategorySidebar ul li .activ {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: white;
   font-weight: 900;
   text-decoration: none;
