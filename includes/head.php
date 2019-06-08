@@ -5,8 +5,7 @@
   <title><?= $title ?></title>
   <meta name="description" content="<?= $metaname ?>"/>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="<?= $css ?>">
-  <link rel="stylesheet" href="<?= $cssHeader ?>">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="icon" href="/images/favicon.ico" />
+  <link rel="stylesheet" href="styles/navbarMobile/navbarMobile.min.css">
+  <link rel="stylesheet" href="styles/sidebar/sidebar.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">  <link rel="icon" href="/images/favicon.ico" />
 </head>

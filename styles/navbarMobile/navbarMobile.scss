@@ -81,16 +81,6 @@
                             width: 100%;
                           }
                       }
-                      
-                      // >li:hover 
-                      // {
-                      //     > a
-                      //     {
-                      //         -webkit-text-stroke: 0.5px black;
-                      //         color: #fff;
-                      //         transition: 0.7s ease 0s;
-                      //     }
-                      // }
                   }
               }
           }
@@ -124,16 +114,6 @@
                           padding: 30px;
                       }
                   }
-                  
-                  // >li:hover 
-                  // {
-                  //     > a
-                  //     {
-                  //         -webkit-text-stroke: 0.5px black;
-                  //         color: #fff;
-                  //         transition: 0.7s ease 0s;
-                  //     }
-                  // }
               }
           }
       }
@@ -201,14 +181,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100px;
     .titleDiv
     {
         width: 100%;
-        position: absolute;
-        top: 36px;
+        height: 100px;
+        align-items: center;
+        display: flex;
         .title
         {
             width: 100%;

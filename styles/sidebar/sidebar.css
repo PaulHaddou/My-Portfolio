@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  margin: 0;
+}
+html body .sidebar {
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  position: relative;
+}
+html body .sidebar .divLogoSidebar {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .sidebar .divLogoSidebar a svg {
+  width: 100px;
+  fill: white;
+}
+html body .sidebar .divCategorySidebar {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .sidebar .divCategorySidebar ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+html body .sidebar .divCategorySidebar ul li {
+  display: flex;
+  justify-content: center;
+  line-height: 35px;
+  position: relative;
+}
+html body .sidebar .divCategorySidebar ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #BEBEBE34;
+  font-weight: 900;
+  text-decoration: none;
+}
+html body .sidebar .divCategorySidebar ul li a:hover {
+  color: white;
+  transition: all 0.7s ease;
+}
+html body .sidebar .divCategorySidebar ul li .activ {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+html body .sidebar .divCategorySidebar ul li span {
+  position: absolute;
+  right: 0;
+  width: 38px;
+  top: calc( 50% - 9px);
+  height: 50%;
+  background-color: white;
+  margin: 0;
+}
+html body .sidebar footer {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .sidebar footer .footerLogo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+html body .sidebar footer .footerLogo a {
+  text-decoration: none;
+}
+html body .sidebar footer .footerLogo a .dribbble {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+html body .sidebar footer .footerLogo a .behance, html body .sidebar footer .footerLogo a .linkedin, html body .sidebar footer .footerLogo a .github {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar {
+    display: none;
+    transition: display 0.5 ease;
+  }
+}
+
+/*# sourceMappingURL=sidebar.css.map */

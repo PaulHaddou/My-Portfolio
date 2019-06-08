@@ -1,19 +1,24 @@
 <?php
     $title = '';
     $metaname = '';
-    $css = 'styles/sidebar.min.css';
-    $cssHeader = 'styles/header.css';
-    $fonts = '';
     include 'includes/head.php';
 ?>
   <body>
-  <!-------------- HEADER ---------------->
+  <!-------------- navbarMobile ---------------->
   <?php
     $hrefProjects = '#';
     $hrefAbout = '#';
     $hrefPublications = '#';
     $hrefContact = '#';
-    include 'includes/header.php';
+    include 'includes/navbarMobile.php';
+  ?>
+  <!-------------- Sidebar ---------------->
+  <?php
+    $hrefProjects = '#';
+    $hrefAbout = '#';
+    $hrefPublications = '#';
+    $hrefContact = '#';
+    include 'includes/sidebar.php';
   ?>
   <!---------- CONTAINER --------->
     <main>
