@@ -6,26 +6,13 @@
   </div>
   <div class="divCategorySidebar">
     <ul>
-      <li>
-        <a href="<?= $hrefProjects ?>" <?= $activProjects ?> >Tous les projets</a>
-        <?= $spanProjects ?>
+      <li><a href="<?= $hrefProjects ?>" class="activ">Tous les projets</a>
+      <span></span>
       </li>
-      <li>
-        <a href="<?= $hrefdevelopment ?>" <?= $activDev ?> >Développement</a>
-        <?= $spanDev ?>
-      </li>
-      <li>
-        <a href="<?= $hrefDesign ?>" <?= $activDesign ?> >Design</a>
-        <?= $spanDesign ?>
-      </li>
-      <li>
-        <a href="<?= $hrefMotion ?>" <?= $activMotion ?> >Motion</a>
-        <?= $spanMotion ?>
-      </li>
-      <li>
-        <a href="<?= $hrefAbout ?>" <?= $activAbout ?> >À propos</a>
-        <?= $spanAbout ?>
-      </li>
+      <li><a href="<?= $hrefdevelopment ?>">Développement</a></li>
+      <li><a href="<?= $hrefDesign ?>">Design</a></li>
+      <li><a href="<?= $hrefMotion ?>">Motion</a></li>
+      <li><a href="<?= $hrefAbout ?>">À propos</a></li>
     </ul>
   </div>
   <footer>

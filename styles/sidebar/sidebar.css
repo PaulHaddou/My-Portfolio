@@ -10,7 +10,7 @@ html body .sidebar {
   height: 100%;
   background-color: black;
   margin: 0;
-  position: fixed;
+  position: relative;
 }
 html body .sidebar .divLogoSidebar {
   height: 130px;
