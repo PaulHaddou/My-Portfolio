@@ -14,10 +14,10 @@
   <?php
     // Links In the Nav and Side bar
     $hrefProjects = '../../';
-    $hrefdevelopment = '../pages/development/';
-    $hrefDesign = '../pages/design/';
-    $hrefMotion = '../pages/motion/';
-    $hrefAbout = '../pages/about/';
+    $hrefdevelopment = '../development/';
+    $hrefDesign = '../design/';
+    $hrefMotion = '../motion/';
+    $hrefAbout = '../about/';
 
     // Allows you to correctly indicate in the sidebar which section you are in
     $activAbout = $activDev = $activDesign = $activMotion = '';
