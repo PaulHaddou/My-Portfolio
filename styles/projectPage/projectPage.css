@@ -35,6 +35,7 @@ body main .container .projectTitle a {
   text-decoration: none;
   color: #BEBEBE;
   height: 35px;
+  font-size: 16px;
 }
 body main .container .projectTitle a:hover {
   text-decoration: underline;
@@ -62,6 +63,21 @@ body main .container .descriptionProject {
 }
 body main .container .descriptionProject p {
   line-height: 27px;
+}
+body main .container .gitDiv {
+  margin-bottom: 78px;
+}
+body main .container .gitDiv a {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #BEBEBE;
+}
+body main .container .gitDiv a:hover {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: all 1s ease;
 }
 
 @media screen and (max-width: 900px) {

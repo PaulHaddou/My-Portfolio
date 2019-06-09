@@ -39,6 +39,7 @@ body
                     text-decoration: none;
                     color: #BEBEBE;
                     height: 35px;
+                    font-size: 16px;
                 }
                 a:hover
                 {
@@ -72,6 +73,24 @@ body
                 p 
                 {
                     line-height: 27px;
+                }
+            }
+            .gitDiv
+            {
+                margin-bottom: 78px;
+                a 
+                {
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #BEBEBE;
+                }
+                a:hover
+                {
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    transition: all 1s ease;
                 }
             }
         }
