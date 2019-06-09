@@ -2,6 +2,9 @@ body {
   display: flex;
   font-family: 'Montserrat', sans-serif;
 }
+body .backSidebar {
+  width: 312px;
+}
 body main {
   width: 100%;
   display: flex;
@@ -51,6 +54,10 @@ body main .container .project1:hover .project1Text {
 }
 
 @media screen and (max-width: 900px) {
+  .backSidebar {
+    display: none;
+  }
+
   .container {
     max-width: 440px;
   }

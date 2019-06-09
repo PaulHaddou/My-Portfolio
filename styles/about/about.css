@@ -94,6 +94,11 @@ body main .container .aboutSkillsContact .aboutContact div a img:first-child {
 
   .aboutSkills {
     height: 400px;
+    margin-top: 86px;
+  }
+
+  .aboutContact {
+    margin-top: 86px;
   }
 }
 

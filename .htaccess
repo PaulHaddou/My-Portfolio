@@ -1,4 +1,4 @@
 # RewriteEngine On
-# RewriteCond %{HTTP_HOST} haddou-dufourcq\.com [NC]
+# RewriteCond %{HTTP_HOST} paul-haddou\.com [NC]
 # RewriteCond %{SERVER_PORT} 80
-# RewriteRule ^(.*)$ https://haddou-dufourcq.com/$1 [R,L]
+# RewriteRule ^(.*)$ https://paul-haddou.com/$1 [R,L]

@@ -4,7 +4,7 @@
     $metaname = '';
     $cssMain = 'styles/allProjectsPage/allProjectsPage.min.css';
     $cssNavbarMobile = 'styles/navbarMobile/navbarMobile.min.css';
-    $cssSidebar = 'styles/Sidebar/Sidebar.min.css';
+    $cssSidebar = 'styles/sidebar/sidebar.min.css';
     
     // Include the head
     include 'includes/head.php';
@@ -30,6 +30,7 @@
     include 'includes/sidebar.php';
   ?>
   <!---------- CONTAINER --------->
+    <span class="backSidebar"></span>
     <main>
       <div class="container">
         <div class="project1">

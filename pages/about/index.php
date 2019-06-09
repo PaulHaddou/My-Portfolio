@@ -13,11 +13,11 @@
   <!-------------- Nav And Sidebar ---------------->
   <?php
     // Links In the Nav and Side bar
-    $hrefProjects = '../../index.php';
-    $hrefdevelopment = '../pages/development/index.php';
-    $hrefDesign = '../pages/design/index.php';
-    $hrefMotion = '../pages/motion/index.php';
-    $hrefAbout = '../pages/about/index.php';
+    $hrefProjects = '../../';
+    $hrefdevelopment = '../pages/development/';
+    $hrefDesign = '../pages/design/';
+    $hrefMotion = '../pages/motion/';
+    $hrefAbout = '../pages/about/';
 
     // Allows you to correctly indicate in the sidebar which section you are in
     $activProjects = $activDev = $activDesign = $activMotion = '';
