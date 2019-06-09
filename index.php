@@ -34,8 +34,8 @@
     <main>
       <div class="container">
         <div class="project1">
-          <a href="#">
-            <img src="img/project-1.jpg">
+          <a href="pages/site_haddou-dufourcq/">
+            <img src="img/site_haddou-dufourcq/site_haddou-dufourcq.jpg">
           </a>
           <div class="project1Text">
             <p>Site Haddou-Dufourcq</p>
@@ -44,7 +44,7 @@
         </div>
         <div class="project1">
           <a href="#">
-            <img src="img/project-1.jpg">
+            <img src="img/site_haddou-dufourcq/site_haddou-dufourcq.jpg">
           </a>
           <div class="project1Text">
             <p>Site Haddou-Dufourcq</p>
@@ -53,7 +53,7 @@
         </div>
         <div class="project1">
           <a href="#">
-            <img src="img/project-1.jpg">
+            <img src="img/site_haddou-dufourcq/site_haddou-dufourcq.jpg">
           </a>
           <div class="project1Text">
             <p>Site Haddou-Dufourcq</p>
@@ -62,7 +62,7 @@
         </div>
         <div class="project1">
           <a href="#">
-            <img src="img/project-1.jpg">
+            <img src="img/site_haddou-dufourcq/site_haddou-dufourcq.jpg">
           </a>
           <div class="project1Text">
             <p>Site Haddou-Dufourcq</p>
@@ -71,7 +71,7 @@
         </div>
         <div class="project1">
           <a href="#">
-            <img src="img/project-1.jpg">
+            <img src="img/site_haddou-dufourcq/site_haddou-dufourcq.jpg">
           </a>
           <div class="project1Text">
             <p>Site Haddou-Dufourcq</p>
@@ -80,7 +80,7 @@
         </div>
         <div class="project1">
           <a href="#">
-            <img src="img/project-1.jpg">
+            <img src="img/site_haddou-dufourcq/site_haddou-dufourcq.jpg">
           </a>
           <div class="project1Text">
             <p>Site Haddou-Dufourcq</p>
