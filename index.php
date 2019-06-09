@@ -1,5 +1,5 @@
 <?php
-    $title = '';
+    $title = 'All Projects';
     $metaname = '';
     include 'includes/head.php';
 ?>
@@ -7,24 +7,72 @@
   <!-------------- navbarMobile ---------------->
   <?php
     $hrefProjects = '#';
-    $hrefAbout = '#';
-    $hrefPublications = '#';
-    $hrefContact = '#';
+    $hrefdevelopment = 'pages/development/index.php';
+    $hrefDesign = 'pages/design/index.php';
+    $hrefMotion = 'pages/motion/index.php';
+    $hrefAbout = 'pages/about/index.php';
     include 'includes/navbarMobile.php';
-  ?>
-  <!-------------- Sidebar ---------------->
-  <?php
-    $hrefProjects = '#';
-    $hrefAbout = '#';
-    $hrefPublications = '#';
-    $hrefContact = '#';
     include 'includes/sidebar.php';
   ?>
   <!---------- CONTAINER --------->
     <main>
-    
+      <div class="container">
+        <div class="project1">
+          <a href="#">
+            <img src="img/project-1.jpg">
+          </a>
+          <div class="project1Text">
+            <p>Site Haddou-Dufourcq</p>
+            <p>Front-End / Webmaster</p>
+          </div>
+        </div>
+        <div class="project1">
+          <a href="#">
+            <img src="img/project-1.jpg">
+          </a>
+          <div class="project1Text">
+            <p>Site Haddou-Dufourcq</p>
+            <p>Front-End / Webmaster</p>
+          </div>
+        </div>
+        <div class="project1">
+          <a href="#">
+            <img src="img/project-1.jpg">
+          </a>
+          <div class="project1Text">
+            <p>Site Haddou-Dufourcq</p>
+            <p>Front-End / Webmaster</p>
+          </div>
+        </div>
+        <div class="project1">
+          <a href="#">
+            <img src="img/project-1.jpg">
+          </a>
+          <div class="project1Text">
+            <p>Site Haddou-Dufourcq</p>
+            <p>Front-End / Webmaster</p>
+          </div>
+        </div>
+        <div class="project1">
+          <a href="#">
+            <img src="img/project-1.jpg">
+          </a>
+          <div class="project1Text">
+            <p>Site Haddou-Dufourcq</p>
+            <p>Front-End / Webmaster</p>
+          </div>
+        </div>
+        <div class="project1">
+          <a href="#">
+            <img src="img/project-1.jpg">
+          </a>
+          <div class="project1Text">
+            <p>Site Haddou-Dufourcq</p>
+            <p>Front-End / Webmaster</p>
+          </div>
+        </div>
+      </div>
     </main>
-    <!-- <script type="text/javascript" src="scripts/app.js"></script> -->
   </body>
 </html>
 		

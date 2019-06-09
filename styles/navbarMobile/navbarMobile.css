@@ -141,6 +141,11 @@
   fill: white;
 }
 
+.backNavbar {
+  width: 100%;
+  height: 365px;
+}
+
 @media screen and (min-width: 900px) {
   .headerContent {
     display: none;

@@ -9,11 +9,10 @@
       <li><a href="<?= $hrefProjects ?>" class="activ">Tous les projets</a>
       <span></span>
       </li>
-      <li><a href="<?= $hrefAbout ?>">développement</a></li>
-      <li><a href="<?= $hrefPublications ?>">Design</a></li>
-      <li><a href="<?= $hrefContact ?>">Motion</a></li>
-      <li><a href="<?= $hrefContact ?>">À propos</a></li>
-      <li><a href="<?= $hrefContact ?>">Contact</a></li>
+      <li><a href="<?= $hrefdevelopment ?>">Développement</a></li>
+      <li><a href="<?= $hrefDesign ?>">Design</a></li>
+      <li><a href="<?= $hrefMotion ?>">Motion</a></li>
+      <li><a href="<?= $hrefAbout ?>">À propos</a></li>
     </ul>
   </div>
   <footer>

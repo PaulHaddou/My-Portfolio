@@ -15,11 +15,10 @@
       <div class="ulDiv">
         <ul>
           <li><a href="<?= $hrefProjects ?>" class="activ">Tous les projets</a></li>
-          <li><a href="<?= $hrefAbout ?>">Développement</a></li>
-          <li><a href="<?= $hrefPublications ?>">Design</a></li>
-          <li><a href="<?= $hrefContact ?>">Motion</a></li>
-          <li><a href="<?= $hrefContact ?>">A propos</a></li>
-          <li><a href="<?= $hrefContact ?>">Contact</a></li>
+          <li><a href="<?= $hrefDevelopment ?>">Développement</a></li>
+          <li><a href="<?= $hrefDesign ?>">Design</a></li>
+          <li><a href="<?= $hrefMotion ?>">Motion</a></li>
+          <li><a href="<?= $hrefAbout ?>">A propos</a></li>
         </ul>
       </div>
     </div>

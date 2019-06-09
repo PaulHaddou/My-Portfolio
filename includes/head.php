@@ -7,5 +7,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/navbarMobile/navbarMobile.min.css">
   <link rel="stylesheet" href="styles/sidebar/sidebar.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">  <link rel="icon" href="/images/favicon.ico" />
+  <link rel="stylesheet" href="styles/allProjectsPage/allProjectsPage.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900&display=swap" rel="stylesheet">
 </head>
