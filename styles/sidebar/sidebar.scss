@@ -11,7 +11,7 @@ html
             height: 100%;
             background-color: black;
             margin: 0;
-            position: relative;
+            position: fixed;
             .divLogoSidebar
             {
                 height: 130px;
@@ -114,11 +114,11 @@ html
     }
 }
 
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 900px) 
+{
     .sidebar
     {
         display: none;
         transition: display 0.5 ease; 
     }
-  }
+}
