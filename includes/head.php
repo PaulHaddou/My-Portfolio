@@ -8,5 +8,8 @@
   <link rel="stylesheet" href="<?= $cssNavbarMobile ?>">
   <link rel="stylesheet" href="<?= $cssSidebar ?>">
   <link rel="stylesheet" href="<?= $cssMain ?>">
+  <link rel="stylesheet" href="styles/animation/style.css">
+  <link rel="stylesheet" href="styles/animation/style-anim.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800&display=swap" rel="stylesheet">
 </head>

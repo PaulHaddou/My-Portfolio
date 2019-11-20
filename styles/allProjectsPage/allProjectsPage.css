@@ -2,15 +2,14 @@ body {
   display: flex;
   font-family: 'Montserrat', sans-serif;
 }
-body .backSidebar {
-  width: 312px;
-}
+
 body main {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 body main .container {
   width: 90%;
   max-width: 1090px;
@@ -19,16 +18,19 @@ body main .container {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 body main .container div {
   width: 300px;
   height: 200px;
   position: relative;
   box-shadow: 0px 6px 24px -22px black;
 }
+
 body main .container div img {
   width: 100%;
   height: 100%;
 }
+
 body main .container div .projectText {
   display: none;
   background-color: #000000;
@@ -37,18 +39,21 @@ body main .container div .projectText {
   bottom: 0;
   height: auto;
 }
+
 body main .container div .projectText p:first-child {
   font-weight: 900;
   font-size: 12px;
   text-align: center;
   color: white;
 }
+
 body main .container div .projectText p:last-child {
   font-weight: 500;
   font-size: 9px;
   color: #bebebe;
   text-align: center;
 }
+
 body main .container div:hover .projectText {
   display: inherit;
   transition: all 6.5s ease;
@@ -69,5 +74,3 @@ body main .container div:hover .projectText {
     bottom: -58px !important;
   }
 }
-
-/*# sourceMappingURL=allProjectsPage.css.map */

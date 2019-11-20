@@ -1,72 +1,95 @@
 html {
   height: 100%;
 }
+
 html body {
   height: 100%;
   margin: 0;
 }
+
+html body .backSidebar {
+  width: 25vw;
+}
+
 html body .sidebar {
-  width: 250px;
+  width: 20vw;
   height: 100%;
-  background-color: black;
+  background-color: #07071C;
   margin: 0;
   position: fixed;
 }
+
 html body .sidebar .divLogoSidebar {
-  height: 130px;
+  height: 22.5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-html body .sidebar .divLogoSidebar a svg {
-  width: 70px;
-  fill: white;
+
+html body .sidebar .divLogoSidebar a {
+  font-family: 'Alegreya', serif;
+  font-size: 6.49vw;
+  font-weight: 800;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: -2.3vw;
+  transform: translateX(-1.15vw);
 }
+
 html body .sidebar .divCategorySidebar {
   width: 100%;
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 html body .sidebar .divCategorySidebar ul {
   margin: 0;
   padding: 0;
   width: 100%;
 }
+
 html body .sidebar .divCategorySidebar ul li {
   display: flex;
   justify-content: center;
   line-height: 35px;
   position: relative;
 }
+
 html body .sidebar .divCategorySidebar ul li a {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  height: 39px;
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  font-size: 18px;
   color: #BEBEBE34;
-  font-weight: 900;
   text-decoration: none;
 }
+
 html body .sidebar .divCategorySidebar ul li a:hover {
+  font-size: 1.64vw;
   color: white;
+  font-weight: 900;
   transition: all 0.7s ease;
 }
+
 html body .sidebar .divCategorySidebar ul li .activ {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-family: 'Alegreya', serif;
+  font-size: 1.64vw;
   color: white;
   font-weight: 900;
   text-decoration: none;
 }
+
 html body .sidebar .divCategorySidebar ul li span {
   position: absolute;
   right: 0;
-  width: 20px;
-  top: calc( 50% - 14%);
-  height: 30%;
+  width: 7px;
+  height: 39px;
   background-color: white;
   margin: 0;
 }
+
 html body .sidebar footer {
   position: absolute;
   bottom: 40px;
@@ -75,19 +98,23 @@ html body .sidebar footer {
   justify-content: center;
   align-items: center;
 }
+
 html body .sidebar footer .footerLogo {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
+
 html body .sidebar footer .footerLogo a {
   text-decoration: none;
 }
+
 html body .sidebar footer .footerLogo a .dribbble {
   width: 25px;
   height: 25px;
   fill: white;
 }
+
 html body .sidebar footer .footerLogo a .behance, html body .sidebar footer .footerLogo a .linkedin, html body .sidebar footer .footerLogo a .github {
   width: 28px;
   height: 28px;
@@ -100,5 +127,3 @@ html body .sidebar footer .footerLogo a .behance, html body .sidebar footer .foo
     transition: display 0.5 ease;
   }
 }
-
-/*# sourceMappingURL=sidebar.css.map */

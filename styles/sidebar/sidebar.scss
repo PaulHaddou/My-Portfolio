@@ -5,32 +5,38 @@ html
     {
         height: 100%;
         margin: 0;
+        .backSidebar
+        {
+            width: 25vw;
+        }
         .sidebar
         {
-            width: 250px;
+            width: 20vw;
             height: 100%;
-            background-color: black;
+            background-color: #07071C;
             margin: 0;
             position: fixed;
             .divLogoSidebar
             {
-                height: 130px;
+                height: 22.5%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 a
                 {
-                    svg
-                    {
-                        width: 70px;
-                        fill: white; 
-                    }
+                    font-family: 'Alegreya', serif;
+                    font-size: 6.49vw;
+                    font-weight: 800;
+                    color: #ffffff;
+                    text-decoration: none;
+                    letter-spacing: -2.3vw;
+                    transform: translateX(-1.15vw);
                 }
             }
             .divCategorySidebar
             {
                 width: 100%;
-                height: 300px;
+                height: 200px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -47,21 +53,24 @@ html
                         position: relative;
                         a
                         {
-                            font-family: 'Montserrat', sans-serif;
-                            font-size: 16px;
+                            height: 39px;
+                            font-family: 'Alegreya', serif;
+                            font-weight: 700;
+                            font-size: 18px;
                             color: #BEBEBE34;
-                            font-weight: 900;
                             text-decoration: none;
                         }
                         a:hover
                         {
+                            font-size: 1.64vw;
                             color: white;
+                            font-weight: 900;
                             transition: all 0.7s ease;
                         }
                         .activ
                         {
-                            font-family: 'Montserrat', sans-serif;
-                            font-size: 18px;
+                            font-family: 'Alegreya', serif;
+                            font-size: 1.64vw;
                             color: white;
                             font-weight: 900;
                             text-decoration: none;
@@ -70,9 +79,8 @@ html
                         {
                             position: absolute;
                             right: 0;
-                            width: 20px;
-                            top: calc( 50% - 14%);
-                            height: 30%;
+                            width: 7px;
+                            height: 39px;
                             background-color: white;
                             margin: 0;
                         }
@@ -111,6 +119,7 @@ html
                 }
             }
         }
+        
     }
 }
 

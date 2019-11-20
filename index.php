@@ -23,15 +23,16 @@
     $activAbout = $activDev = $activDesign = $activMotion = '';
     $spanAbout = $spanDev = $spanDesign = $spanMotion = '';
     $activProjects = 'class="activ"';
-    $spanProjects = '<span></span>';
+    $spanProjects = '<span class="spanActiv" ></span>';
 
     // Includes
+    //include 'includes/animation.php';
     include 'includes/navbarMobile.php';
     include 'includes/sidebar.php';
   ?>
   <!---------- CONTAINER --------->
     <span class="backSidebar"></span>
-    <main>
+    <main class="main">
       <div class="container">
         <div>
           <a href="pages/site_haddou-dufourcq/">
@@ -89,6 +90,9 @@
         </div>
       </div>
     </main>
+  <script src="scripts/navbarMobile.js"></script>
+  <!--<script src="scripts/sidebar.js"></script>
+  <script src="scripts/animation.js"></script>-->
   </body>
 </html>
 		
